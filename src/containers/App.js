@@ -36,7 +36,7 @@ class App extends React.Component {
             ? <h1 className='tc f2'>Loading ...</h1>
             : (
                 <div className='tc'>
-                    <div style={{ height: '20vh' }}>
+                    <div>
                         <h1 className='f2'>RoboFriends</h1>
                         <SearchBox searchChange={this.onSearchChange} />
                     </div>
